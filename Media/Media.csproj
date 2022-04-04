@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="calcularmedia.aspx" />
     <Content Include="Cliente.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="calcularmedia.aspx.cs">
+      <DependentUpon>calcularmedia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="calcularmedia.aspx.designer.cs">
+      <DependentUpon>calcularmedia.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.asmx.cs">
       <DependentUpon>Cliente.asmx</DependentUpon>
       <SubType>Component</SubType>
